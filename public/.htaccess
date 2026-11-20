@@ -1,0 +1,4 @@
+# Con Apache, manda toda ruta que no sea un archivo real al front controller.
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
