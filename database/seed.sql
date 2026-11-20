@@ -2,6 +2,7 @@
 -- si los vas a mostrar en una entrega, revisa discográficas y fechas.
 
 USE gestion_musica;
+SET NAMES utf8mb4;
 
 INSERT INTO Artistas (nombre, apellido, fecha_nacimiento, nacionalidad) VALUES
     ('Gustavo', 'Cerati', '1959-08-11', 'Argentina'),

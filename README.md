@@ -10,28 +10,41 @@ Catálogo de álbumes y artistas en PHP. Un álbum puede tener varios artistas y
 
 ## Puesta en marcha
 
-Crea la base y las tablas (el script también crea la base `gestion_musica`):
+Todos los comandos se ejecutan desde la carpeta `gestion-musica`. El script `schema.sql` también crea la base `gestion_musica`.
+
+### Linux / macOS
 
 ```bash
 mysql -u root -p < database/schema.sql
 mysql -u root -p < database/seed.sql   # datos de demostración, opcional
-```
 
-Configura la conexión con variables de entorno y levanta el servidor de desarrollo:
-
-```bash
 export DB_HOST=127.0.0.1 DB_NAME=gestion_musica DB_USER=root DB_PASS=tu_clave
 php -S localhost:8000 -t public public/index.php
 ```
 
-Abre http://localhost:8000. Con Apache, apunta el `DocumentRoot` a `public/` (el `.htaccess` ya redirige todo a `index.php`). La aplicación espera estar en la raíz del dominio; si la montas en un subdirectorio hay que ajustar los enlaces de las plantillas.
+### Windows con XAMPP (PowerShell)
+
+Arranca MySQL desde el panel de control de XAMPP. Si `php` y `mysql` no están en el PATH, usa las rutas completas de XAMPP. PowerShell no acepta `<`, y pasar el archivo con `Get-Content ... |` estropea las tildes. Por eso se carga con `source`, que lee el archivo directamente:
+
+```powershell
+C:\xampp\mysql\bin\mysql.exe -u root --default-character-set=utf8mb4 -e "source database/schema.sql"
+C:\xampp\mysql\bin\mysql.exe -u root --default-character-set=utf8mb4 -e "source database/seed.sql"   # opcional
+
+$env:DB_USER = "root"; $env:DB_PASS = ""   # en XAMPP root no tiene clave por defecto
+C:\xampp\php\php.exe -S localhost:8000 -t public public\index.php
+```
+
+Si el usuario `root` tiene clave, agrega `-p` a los comandos de `mysql.exe` y pon la clave en `DB_PASS`. Las variables de entorno no definidas toman los valores por defecto de `config/config.php` (`127.0.0.1:3306`, base `gestion_musica`, usuario `root` sin clave).
+
+Abre http://localhost:8000; la raíz redirige a `/albumes`. Con Apache, apunta el `DocumentRoot` a `public/` (el `.htaccess` ya redirige todo a `index.php`). La aplicación espera estar en la raíz del dominio; si la montas en un subdirectorio hay que ajustar los enlaces de las plantillas.
 
 `APP_DEBUG=1` hace que las páginas de error muestren el mensaje real. Déjalo apagado fuera de tu máquina.
 
 ## Pruebas
 
 ```bash
-php tests/run.php
+php tests/run.php                       # Linux / macOS
+C:\xampp\php\php.exe tests\run.php      # Windows con XAMPP
 ```
 
 Corren contra SQLite en memoria, con el mismo modelo que el esquema de MySQL. Cubren validaciones, el vínculo álbum-artista (incluido repetirlo), los borrados en cascada, el orden de los listados y la búsqueda con comodines.
@@ -59,6 +72,7 @@ Los repositorios no validan y los servicios no escriben SQL, de modo que cambiar
 
 | Método | Ruta | Acción |
 |--------|------|--------|
+| GET | `/` | Redirige a `/albumes` |
 | GET | `/albumes`, `/artistas` | Listado, con `?q=` para buscar |
 | GET | `/albumes/nuevo`, `/artistas/nuevo` | Formulario de alta |
 | POST | `/albumes`, `/artistas` | Crear |
@@ -70,6 +84,8 @@ Los repositorios no validan y los servicios no escriben SQL, de modo que cambiar
 | POST | `/albumes/{id}/artistas/{artistaId}/quitar` | Quitar un artista del álbum |
 
 ## Decisiones que conviene conocer
+
+En Windows, MySQL/MariaDB guarda los nombres de tabla en minúsculas (`albumes`, `artistas`, `album_artista`). No afecta a la aplicación, pero si exportas la base y la importas en Linux, donde los nombres distinguen mayúsculas, vuelve a crearla con `schema.sql` en lugar de usar el volcado.
 
 La columna `año_lanzamiento` se llama `anio_lanzamiento` para evitar la ñ en identificadores, que suele dar problemas con dumps y herramientas configuradas con otro charset.
 

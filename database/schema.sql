@@ -6,6 +6,7 @@ CREATE DATABASE IF NOT EXISTS gestion_musica
     COLLATE utf8mb4_unicode_ci;
 
 USE gestion_musica;
+SET NAMES utf8mb4;
 
 CREATE TABLE Artistas (
     artista_id       INT UNSIGNED NOT NULL AUTO_INCREMENT,
