@@ -95,7 +95,19 @@ Borrar un álbum o un artista elimina solo los vínculos (`ON DELETE CASCADE`), 
 
 Todos los POST exigen un token CSRF de sesión, la salida se escapa con `e()` y las consultas usan parámetros reales, no concatenación.
 
+## Uso de inteligencia artificial
 
+En este proyecto usé un asistente de IA (Claude Code, de Anthropic) como apoyo. Los commits en los que intervino llevan la línea `Co-Authored-By: Claude`.
 
-# las imagenes generadas con IA, tambien apoyo con el css
+**Trabajo propio:** _[echo por Edwin Sanchez: el modelo de datos, la lógica PHP, las pruebas, las decisiones de diseño]_.
+
+**Con ayuda de IA:**
+
+- **Diseño de la interfaz (CSS y plantillas):** el rediseño visual con estilo de contraportada de disco (`public/css/app.css`, las plantillas de `templates/`, las funciones `numero_catalogo()` y `lados()` en `src/Support/helpers.php` y el bloque de archivos estáticos en `public/index.php`). que también generó `PRODUCT.md`, `DESIGN.md` y la carpeta `.impeccable/`. La dirección visual la elegí yo entre varias propuestas.
+- **Imágenes y bocetos:** los bocetos de diseño los generó la IA. No se usan en la aplicación.
+
+Revisé los cambios y la aplicación funciona con ellos. Las pruebas (`tests/run.php`) pasan.
+
+## pruebas echas en local
+
 
