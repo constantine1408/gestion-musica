@@ -109,3 +109,11 @@ En este proyecto usé un asistente de IA (Claude Code, de Anthropic) como apoyo.
 Revisé los cambios y la aplicación funciona con ellos. Las pruebas (`tests/run.php`) pasan.
 
 ## pruebas echas en local
+
+<img width="1920" height="1080" alt="INICIO" src="https://github.com/user-attachments/assets/697a70c3-1142-4413-a9c1-e379315efe4a" />
+
+<img width="1920" height="1080" alt="CREAR ALMBUM" src="https://github.com/user-attachments/assets/6a1ca00b-b53c-41eb-96f1-4f67f976b752" />
+
+<img width="1920" height="1080" alt="CREADO" src="https://github.com/user-attachments/assets/d60479dc-36f3-490f-a23c-5a027381a113" />
+
+<img width="1920" height="1080" alt="ARTISTA AGREGADO" src="https://github.com/user-attachments/assets/4f0ced59-7d8b-4bd9-bf3d-82aa53ea11e0" />
