@@ -3,6 +3,7 @@
 /** @var string $accion */
 /** @var array<string, mixed> $valores */
 /** @var array<string, string> $errores */
+/*FORMULARIO */
 $tituloPagina = $encabezado;
 $valor = static fn (string $campo): string => e(is_string($valores[$campo] ?? null) ? $valores[$campo] : '');
 ?>

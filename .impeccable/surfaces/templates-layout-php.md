@@ -1,13 +1,18 @@
 ---
 version: 1
-slug: "templates-layout-php"
-primary_target: "templates/layout.php"
-related_targets: ["templates/albumes/index.php","templates/albumes/detalle.php","templates/albumes/form.php","templates/artistas/index.php","templates/artistas/detalle.php","templates/artistas/form.php","templates/error.php"]
+slug: 'templates-layout-php'
+primary_target: 'templates/layout.php'
+related_targets:
+  [
+    'templates/albumes/index.php',
+    'templates/albumes/detalle.php',
+    'templates/albumes/form.php',
+    'templates/artistas/index.php',
+    'templates/artistas/detalle.php',
+    'templates/artistas/form.php',
+    'templates/error.php',
+  ]
 ---
-
-# Gestión de música: todas las pantallas (layout compartido)
-
-Mode: operate. Audiencia: profesor que evalúa el CRUD en escritorio. Tarea: listar, buscar, ver ficha, crear, editar, eliminar, vincular y desvincular artistas. Restricción: textos, rutas, campos y comportamiento no cambian; solo la apariencia. Dirección elegida en la página de decisión: «Contraportada de LP» (tarjeta IMPECCABLE’S PICK), boceto `.impeccable/mocks/decision/model-pick.html`. Build path: code-led, sin generación de imágenes.
 
 ## Direction contract
 
