@@ -6,10 +6,6 @@
 
 web
 
-## Users
-
-Profesor o monitor del curso Aplicaciones Web (Uniandes) que revisa la aplicación como entrega de la Evaluación Parcial 1. Abre los listados, crea, edita y elimina álbumes y artistas, vincula artistas a álbumes y juzga la calidad del resultado, normalmente en un navegador de escritorio y en una sola sesión de revisión.
-
 ## Product Purpose
 
 "Gestión de música" es un catálogo de álbumes y artistas con relación muchos a muchos (un álbum tiene varios artistas y un artista aparece en varios álbumes). Existe para demostrar un CRUD completo, bien estructurado y seguro en PHP. El éxito es que quien evalúa pueda recorrer todas las funciones sin fricción y perciba un trabajo cuidado.
@@ -35,7 +31,7 @@ Profesor o monitor del curso Aplicaciones Web (Uniandes) que revisa la aplicaci�
 ## Evidence on Hand
 
 - Datos de demostración en `database/seed.sql` (rock en español: Cerati, García, Páez). No son un catálogo oficial.
-- No hay portadas de álbumes, fotos de artistas, logotipo ni otros recursos gráficos; no deben inventarse.
+- No hay portadas de álbumes, fotos de artistas, logotipo ni otros recursos gráficos
 
 ## Product Principles
 

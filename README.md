@@ -70,18 +70,18 @@ Los repositorios no validan y los servicios no escriben SQL, de modo que cambiar
 
 ## Rutas
 
-| Método | Ruta | Acción |
-|--------|------|--------|
-| GET | `/` | Redirige a `/albumes` |
-| GET | `/albumes`, `/artistas` | Listado, con `?q=` para buscar |
-| GET | `/albumes/nuevo`, `/artistas/nuevo` | Formulario de alta |
-| POST | `/albumes`, `/artistas` | Crear |
-| GET | `/albumes/{id}`, `/artistas/{id}` | Ficha |
-| GET | `/albumes/{id}/editar`, `/artistas/{id}/editar` | Formulario de edición |
-| POST | `/albumes/{id}`, `/artistas/{id}` | Actualizar |
-| POST | `/albumes/{id}/eliminar`, `/artistas/{id}/eliminar` | Eliminar |
-| POST | `/albumes/{id}/artistas` | Agregar un artista al álbum (`artista_id`) |
-| POST | `/albumes/{id}/artistas/{artistaId}/quitar` | Quitar un artista del álbum |
+| Método | Ruta                                                | Acción                                     |
+| ------ | --------------------------------------------------- | ------------------------------------------ |
+| GET    | `/`                                                 | Redirige a `/albumes`                      |
+| GET    | `/albumes`, `/artistas`                             | Listado, con `?q=` para buscar             |
+| GET    | `/albumes/nuevo`, `/artistas/nuevo`                 | Formulario de alta                         |
+| POST   | `/albumes`, `/artistas`                             | Crear                                      |
+| GET    | `/albumes/{id}`, `/artistas/{id}`                   | Ficha                                      |
+| GET    | `/albumes/{id}/editar`, `/artistas/{id}/editar`     | Formulario de edición                      |
+| POST   | `/albumes/{id}`, `/artistas/{id}`                   | Actualizar                                 |
+| POST   | `/albumes/{id}/eliminar`, `/artistas/{id}/eliminar` | Eliminar                                   |
+| POST   | `/albumes/{id}/artistas`                            | Agregar un artista al álbum (`artista_id`) |
+| POST   | `/albumes/{id}/artistas/{artistaId}/quitar`         | Quitar un artista del álbum                |
 
 ## Decisiones que conviene conocer
 
@@ -109,5 +109,3 @@ En este proyecto usé un asistente de IA (Claude Code, de Anthropic) como apoyo.
 Revisé los cambios y la aplicación funciona con ellos. Las pruebas (`tests/run.php`) pasan.
 
 ## pruebas echas en local
-
-
