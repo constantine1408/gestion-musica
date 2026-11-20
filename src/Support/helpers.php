@@ -22,3 +22,24 @@ function mensaje_error(array $errores, string $campo): string
         ? '<span class="error">' . e($errores[$campo]) . '</span>'
         : '';
 }
+
+/** Número de catálogo para mostrar, derivado del id real (GM-0007). */
+function numero_catalogo(int $id): string
+{
+    return 'GM-' . str_pad((string) $id, 4, '0', STR_PAD_LEFT);
+}
+
+/**
+ * Reparte una lista ya ordenada en dos lados, como la contraportada de un disco:
+ * el Lado A se lleva la mitad más uno cuando el total es impar.
+ *
+ * @template T
+ * @param list<T> $items
+ * @return array{A: list<T>, B: list<T>}
+ */
+function lados(array $items): array
+{
+    $mitad = (int) ceil(count($items) / 2);
+
+    return ['A' => array_slice($items, 0, $mitad), 'B' => array_slice($items, $mitad)];
+}

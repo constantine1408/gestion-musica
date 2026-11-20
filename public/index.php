@@ -14,6 +14,15 @@ use Musica\Service\ArtistaService;
 use Musica\Support\Sesion;
 use Musica\Support\View;
 
+// Con `php -S`, deja que el servidor entregue los archivos reales de public/ (CSS, fuentes),
+// igual que hace el .htaccess en Apache.
+if (PHP_SAPI === 'cli-server') {
+    $archivo = realpath(__DIR__ . parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH));
+    if ($archivo !== false && is_file($archivo) && str_starts_with($archivo, __DIR__ . DIRECTORY_SEPARATOR)) {
+        return false;
+    }
+}
+
 require __DIR__ . '/../src/autoload.php';
 
 $config = require __DIR__ . '/../config/config.php';

@@ -94,3 +94,8 @@ Borrar un álbum o un artista elimina solo los vínculos (`ON DELETE CASCADE`), 
 `fecha_nacimiento` y `nacionalidad` son opcionales; nombre y apellido no. Como el modelo separa nombre y apellido, una banda se registra mal (por ejemplo "Soda Stereo" necesitaría inventar un apellido). Si el catálogo va a incluir grupos, el cambio natural es un campo `nombre_artistico` o un tipo de artista.
 
 Todos los POST exigen un token CSRF de sesión, la salida se escapa con `e()` y las consultas usan parámetros reales, no concatenación.
+
+
+
+# las imagenes generadas con IA, tambien apoyo con el css
+

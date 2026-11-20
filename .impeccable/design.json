@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-20T18:07:12.339Z",
+  "title": "Design System: Gestión de música",
+  "extensions": {
+    "colorMeta": {
+      "funda": {
+        "role": "neutral",
+        "displayName": "Cartón de funda",
+        "canonical": "oklch(19.1% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "funda-alta": {
+        "role": "neutral",
+        "displayName": "Cartón alto",
+        "canonical": "oklch(22.2% 0.002 106.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 106.6)",
+          "oklch(26.4% 0.001 106.6)",
+          "oklch(37.9% 0.002 106.6)",
+          "oklch(49.3% 0.002 106.6)",
+          "oklch(60.7% 0.002 106.6)",
+          "oklch(72.1% 0.002 106.6)",
+          "oklch(83.6% 0.001 106.6)",
+          "oklch(95.0% 0.000 106.6)"
+        ]
+      },
+      "hundido": {
+        "role": "neutral",
+        "displayName": "Hundido",
+        "canonical": "oklch(16.4% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "filete": {
+        "role": "neutral",
+        "displayName": "Filete",
+        "canonical": "oklch(28.5% 0.002 106.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 106.5)",
+          "oklch(26.4% 0.001 106.5)",
+          "oklch(37.9% 0.002 106.5)",
+          "oklch(49.3% 0.002 106.5)",
+          "oklch(60.7% 0.002 106.5)",
+          "oklch(72.1% 0.002 106.5)",
+          "oklch(83.6% 0.001 106.5)",
+          "oklch(95.0% 0.000 106.5)"
+        ]
+      },
+      "filete-fuerte": {
+        "role": "neutral",
+        "displayName": "Filete fuerte",
+        "canonical": "oklch(35.9% 0.003 106.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 106.6)",
+          "oklch(26.4% 0.002 106.6)",
+          "oklch(37.9% 0.003 106.6)",
+          "oklch(49.3% 0.003 106.6)",
+          "oklch(60.7% 0.003 106.6)",
+          "oklch(72.1% 0.003 106.6)",
+          "oklch(83.6% 0.002 106.6)",
+          "oklch(95.0% 0.001 106.6)"
+        ]
+      },
+      "tinta": {
+        "role": "neutral",
+        "displayName": "Tinta hueso",
+        "canonical": "oklch(96.0% 0.005 106.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.001 106.5)",
+          "oklch(26.4% 0.003 106.5)",
+          "oklch(37.9% 0.005 106.5)",
+          "oklch(49.3% 0.005 106.5)",
+          "oklch(60.7% 0.005 106.5)",
+          "oklch(72.1% 0.005 106.5)",
+          "oklch(83.6% 0.003 106.5)",
+          "oklch(95.0% 0.001 106.5)"
+        ]
+      },
+      "gris": {
+        "role": "neutral",
+        "displayName": "Gris de imprenta",
+        "canonical": "oklch(71.3% 0.010 106.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 106.6)",
+          "oklch(26.4% 0.007 106.6)",
+          "oklch(37.9% 0.010 106.6)",
+          "oklch(49.3% 0.010 106.6)",
+          "oklch(60.7% 0.010 106.6)",
+          "oklch(72.1% 0.010 106.6)",
+          "oklch(83.6% 0.006 106.6)",
+          "oklch(95.0% 0.001 106.6)"
+        ]
+      },
+      "etiqueta": {
+        "role": "primary",
+        "displayName": "Dorado de etiqueta",
+        "canonical": "oklch(78.9% 0.141 86.3)",
+        "tonalRamp": [
+          "oklch(15.0% 0.028 86.3)",
+          "oklch(26.4% 0.093 86.3)",
+          "oklch(37.9% 0.141 86.3)",
+          "oklch(49.3% 0.141 86.3)",
+          "oklch(60.7% 0.141 86.3)",
+          "oklch(72.1% 0.141 86.3)",
+          "oklch(83.6% 0.082 86.3)",
+          "oklch(95.0% 0.021 86.3)"
+        ]
+      },
+      "etiqueta-viva": {
+        "role": "primary",
+        "displayName": "Dorado vivo",
+        "canonical": "oklch(84.5% 0.134 88.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.027 88.5)",
+          "oklch(26.4% 0.088 88.5)",
+          "oklch(37.9% 0.134 88.5)",
+          "oklch(49.3% 0.134 88.5)",
+          "oklch(60.7% 0.134 88.5)",
+          "oklch(72.1% 0.134 88.5)",
+          "oklch(83.6% 0.078 88.5)",
+          "oklch(95.0% 0.020 88.5)"
+        ]
+      },
+      "error": {
+        "role": "state",
+        "displayName": "Error",
+        "canonical": "oklch(75.7% 0.146 31.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.029 31.4)",
+          "oklch(26.4% 0.096 31.4)",
+          "oklch(37.9% 0.146 31.4)",
+          "oklch(49.3% 0.146 31.4)",
+          "oklch(60.7% 0.146 31.4)",
+          "oklch(72.1% 0.146 31.4)",
+          "oklch(83.6% 0.084 31.4)",
+          "oklch(95.0% 0.022 31.4)"
+        ]
+      },
+      "ok": {
+        "role": "state",
+        "displayName": "Ok",
+        "canonical": "oklch(80.0% 0.117 153.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.023 153.2)",
+          "oklch(26.4% 0.077 153.2)",
+          "oklch(37.9% 0.117 153.2)",
+          "oklch(49.3% 0.117 153.2)",
+          "oklch(60.7% 0.117 153.2)",
+          "oklch(72.1% 0.117 153.2)",
+          "oklch(83.6% 0.068 153.2)",
+          "oklch(95.0% 0.018 153.2)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "El h1 de cada pantalla, en mayúsculas; uno por pantalla."
+      },
+      "brand": {
+        "displayName": "Marca",
+        "purpose": "Solo el nombre junto al disco en la cabecera."
+      },
+      "title": {
+        "displayName": "Título de pista",
+        "purpose": "Nombre de cada pieza en listados y vínculos."
+      },
+      "body": {
+        "displayName": "Cuerpo",
+        "purpose": "Texto corriente y valores de campo, con cifras tabulares."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Datos secundarios en gris: artistas, género, etiquetas de créditos."
+      },
+      "label": {
+        "displayName": "Rótulo de lado",
+        "purpose": "Nombres de sección reales (Lado A, Artistas), en dorado con regla debajo; nunca antetítulo."
+      },
+      "button": {
+        "displayName": "Botón",
+        "purpose": "Texto de todos los botones."
+      },
+      "catalog": {
+        "displayName": "Catálogo",
+        "purpose": "Solo el número de catálogo GM-0000."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "disco-giro",
+        "value": "1.4s cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "El disco de la marca gira desde -300deg al cargar; solo con prefers-reduced-motion: no-preference."
+      },
+      {
+        "name": "color-estado",
+        "value": ".15s ease-out",
+        "purpose": "Transición de fondo, borde y color en botones."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "movil",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acción principal de la pantalla (Nuevo álbum, Guardar, Agregar); una por pantalla.",
+      "html": "<button class=\"ds-btn\">Nuevo álbum</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:40px;font-family:var(--sans,'Archivo',system-ui,sans-serif);font-weight:700;font-size:15px;line-height:1;padding:0 18px;border-radius:var(--radio,3px);cursor:pointer;transition:background-color .15s ease-out,border-color .15s ease-out,color .15s ease-out;border:1px solid var(--etiqueta,#e2b33c);background:var(--etiqueta,#e2b33c);color:var(--funda,#141414);}.ds-btn:hover{background:var(--etiqueta-viva,#f0c75a);border-color:var(--etiqueta-viva,#f0c75a);}.ds-btn:focus-visible{outline:2px solid var(--etiqueta,#e2b33c);outline-offset:2px;}"
+    },
+    {
+      "name": "Botón secundario",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Editar, Cancelar, Buscar, Quitar: transparente con borde de filete fuerte.",
+      "html": "<button class=\"ds-btn-sec\">Editar</button>",
+      "css": ".ds-btn-sec{display:inline-flex;align-items:center;justify-content:center;min-height:40px;font-family:var(--sans,'Archivo',system-ui,sans-serif);font-weight:700;font-size:15px;line-height:1;padding:0 18px;border-radius:var(--radio,3px);cursor:pointer;transition:background-color .15s ease-out,border-color .15s ease-out,color .15s ease-out;border:1px solid var(--filete-fuerte,#3d3d3b);background:transparent;color:var(--tinta,#f2f2ee);}.ds-btn-sec:hover{border-color:var(--tinta,#f2f2ee);}.ds-btn-sec:focus-visible{outline:2px solid var(--etiqueta,#e2b33c);outline-offset:2px;}"
+    },
+    {
+      "name": "Botón de peligro",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Solo Eliminar; siempre con confirmación.",
+      "html": "<button class=\"ds-btn-peligro\">Eliminar</button>",
+      "css": ".ds-btn-peligro{display:inline-flex;align-items:center;justify-content:center;min-height:40px;font-family:var(--sans,'Archivo',system-ui,sans-serif);font-weight:700;font-size:15px;line-height:1;padding:0 18px;border-radius:var(--radio,3px);cursor:pointer;transition:background-color .15s ease-out,border-color .15s ease-out,color .15s ease-out;border:1px solid var(--error,#ff8a75);background:transparent;color:var(--error,#ff8a75);}.ds-btn-peligro:hover{background:var(--error,#ff8a75);color:var(--funda,#141414);}.ds-btn-peligro:focus-visible{outline:2px solid var(--etiqueta,#e2b33c);outline-offset:2px;}"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Campo hundido en el cartón con foco dorado; borde rojo si hay error.",
+      "html": "<input class=\"ds-input\" type=\"search\" placeholder=\"Buscar por título, género o discográfica\">",
+      "css": ".ds-input{font-family:var(--sans,'Archivo',system-ui,sans-serif);font-size:16px;line-height:1.4;color:var(--tinta,#f2f2ee);background:var(--hundido,#0e0e0e);border:1px solid var(--filete-fuerte,#3d3d3b);border-radius:var(--radio,3px);padding:9px 12px;min-height:42px;width:100%;}.ds-input::placeholder{color:#8d8d86;}.ds-input:hover{border-color:#57574f;}.ds-input:focus-visible{outline:2px solid var(--etiqueta,#e2b33c);outline-offset:0;border-color:var(--etiqueta,#e2b33c);}"
+    },
+    {
+      "name": "Cabecera y navegación",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Marca con disco a la izquierda; Álbumes / Artistas con el activo en dorado y subrayado de 3px.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-marca\" href=\"#\"><svg class=\"ds-disco\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><circle cx=\"16\" cy=\"16\" r=\"15.5\" fill=\"#050505\" stroke=\"#3d3d3b\"/><circle cx=\"16\" cy=\"16\" r=\"12.5\" fill=\"none\" stroke=\"#262625\" stroke-width=\".8\"/><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"none\" stroke=\"#262625\" stroke-width=\".8\"/><circle cx=\"16\" cy=\"16\" r=\"6.5\" fill=\"#e2b33c\"/><path d=\"M16 10.5a5.5 5.5 0 0 1 5.5 5.5\" fill=\"none\" stroke=\"#141414\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><circle cx=\"16\" cy=\"16\" r=\"1.4\" fill=\"#141414\"/></svg><span>Gestión de música</span></a><a class=\"ds-nav-link\" href=\"#\" aria-current=\"page\">Álbumes</a><a class=\"ds-nav-link\" href=\"#\">Artistas</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:32px;min-height:72px;padding:0 24px;background:var(--funda,#141414);border-bottom:1px solid var(--filete,#2a2a29);font-family:var(--sans,'Archivo',system-ui,sans-serif);}.ds-marca{display:flex;align-items:center;gap:12px;margin-right:auto;font-weight:800;font-size:19px;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;color:var(--tinta,#f2f2ee);}.ds-disco{width:28px;height:28px;flex:none;}.ds-nav-link{text-decoration:none;color:var(--gris,#a3a39c);font-weight:500;padding:24px 0 21px;border-bottom:3px solid transparent;transition:color .15s ease-out;}.ds-nav-link:hover{color:var(--tinta,#f2f2ee);}.ds-nav-link[aria-current=\"page\"]{color:var(--etiqueta,#e2b33c);border-bottom-color:var(--etiqueta,#e2b33c);}.ds-nav a:focus-visible{outline:2px solid var(--etiqueta,#e2b33c);outline-offset:2px;}"
+    },
+    {
+      "name": "Pista",
+      "kind": "custom",
+      "refersTo": "track-row",
+      "description": "Fila de la lista de temas bajo un rótulo de lado: número A1, título, artistas y género, año y número de catálogo.",
+      "html": "<section class=\"ds-lado\"><h2 class=\"ds-rotulo\">Lado A</h2><ol class=\"ds-pistas\"><li class=\"ds-pista\"><span class=\"ds-n\">A1</span><a class=\"ds-t\" href=\"#\">Bocanada</a><span class=\"ds-meta\">Gustavo Cerati — Rock</span><span class=\"ds-der\"><b>1999</b><span class=\"ds-cat\">GM-0001</span></span></li><li class=\"ds-pista\"><span class=\"ds-n\">A2</span><a class=\"ds-t\" href=\"#\">Clics modernos</a><span class=\"ds-meta\">Charly García — Rock</span><span class=\"ds-der\"><b>1983</b><span class=\"ds-cat\">GM-0002</span></span></li></ol></section>",
+      "css": ".ds-lado{font-family:var(--sans,'Archivo',system-ui,sans-serif);color:var(--tinta,#f2f2ee);background:var(--funda,#141414);font-variant-numeric:tabular-nums;}.ds-rotulo{margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--etiqueta,#e2b33c);padding-bottom:8px;border-bottom:1px solid var(--filete-fuerte,#3d3d3b);}.ds-pistas{list-style:none;margin:0;padding:0;}.ds-pista{position:relative;display:grid;grid-template-columns:40px 1fr auto;gap:4px 14px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--filete,#2a2a29);}.ds-n{color:var(--gris,#a3a39c);font-weight:500;font-size:14px;}.ds-pista:hover .ds-n,.ds-pista:focus-within .ds-n{color:var(--etiqueta,#e2b33c);}.ds-t{font-weight:700;font-size:18px;line-height:1.3;text-decoration:none;color:var(--tinta,#f2f2ee);}.ds-t::after{content:\"\";position:absolute;inset:0;}.ds-t:hover{color:var(--etiqueta-viva,#f0c75a);}.ds-t:focus-visible{outline:2px solid var(--etiqueta,#e2b33c);outline-offset:2px;}.ds-meta{grid-column:2;color:var(--gris,#a3a39c);font-size:14px;}.ds-der{grid-column:3;grid-row:1 / span 2;text-align:right;font-size:14px;color:var(--gris,#a3a39c);white-space:nowrap;}.ds-der b{display:block;color:var(--tinta,#f2f2ee);font-weight:500;font-size:15px;}.ds-cat{font-family:var(--mono,ui-monospace,Consolas,monospace);font-size:12px;letter-spacing:.04em;}"
+    },
+    {
+      "name": "Créditos",
+      "kind": "card",
+      "description": "Datos de la ficha como créditos impresos: etiqueta gris, dato en tinta, filete debajo.",
+      "html": "<dl class=\"ds-creditos\"><div><dt>Género</dt><dd>Rock</dd></div><div><dt>Año</dt><dd>1999</dd></div><div><dt>Catálogo</dt><dd class=\"ds-cat\">GM-0001</dd></div></dl>",
+      "css": ".ds-creditos{margin:0;font-family:var(--sans,'Archivo',system-ui,sans-serif);color:var(--tinta,#f2f2ee);font-variant-numeric:tabular-nums;max-width:300px;}.ds-creditos div{display:grid;grid-template-columns:120px 1fr;gap:12px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--filete,#2a2a29);}.ds-creditos dt{color:var(--gris,#a3a39c);font-size:14px;}.ds-creditos dd{margin:0;font-weight:500;}.ds-creditos .ds-cat{font-family:var(--mono,ui-monospace,Consolas,monospace);font-size:12px;letter-spacing:.04em;color:var(--gris,#a3a39c);font-weight:400;}"
+    },
+    {
+      "name": "Aviso",
+      "kind": "custom",
+      "refersTo": "notice",
+      "description": "Confirmación o error tras una acción, teñido con su color de estado.",
+      "html": "<div class=\"ds-aviso ds-ok\" role=\"status\">Álbum creado.</div><div class=\"ds-aviso ds-err\" role=\"status\">No se pudo eliminar.</div>",
+      "css": ".ds-aviso{font-family:var(--sans,'Archivo',system-ui,sans-serif);padding:12px 16px;border-radius:var(--radio,3px);margin-bottom:12px;border:1px solid;font-weight:500;}.ds-ok{color:var(--ok,#7fd49a);border-color:color-mix(in srgb,var(--ok,#7fd49a) 55%,transparent);background:color-mix(in srgb,var(--ok,#7fd49a) 9%,var(--funda,#141414));}.ds-err{color:var(--error,#ff8a75);border-color:color-mix(in srgb,var(--error,#ff8a75) 55%,transparent);background:color-mix(in srgb,var(--error,#ff8a75) 9%,var(--funda,#141414));}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La contraportada del LP",
+    "overview": "Cada pantalla es el reverso de un disco. El fondo es cartón de funda negro, el texto es tinta blanca hueso impresa encima, y un único dorado, el de la etiqueta central del vinilo, marca lo que está activo y la acción principal. Los listados se leen como la lista de temas de una contraportada: divididos en Lado A y Lado B, cada pieza numerada (A1, A2, B1…) y con su número de catálogo en monoespaciada al margen derecho. Las fichas se leen como los créditos impresos: etiqueta gris a la izquierda, dato en tinta a la derecha, separados por filetes finos.\n\nLa densidad es de impreso, no de panel: filas generosas (14px arriba y abajo) separadas solo por un filete de 1px, sin tarjetas, sin sombras, sin barra lateral. La jerarquía la llevan el peso tipográfico (800 para títulos, 700 para nombres de pieza, 400/500 para datos) y el contraste tinta/gris, no cajas ni fondos. Es un mundo oscuro de un solo tema (`color-scheme: dark`). Rechaza explícitamente el panel de administración gris con tabla y barra lateral que sustituye.\n\nEl movimiento es casi nulo: el disco de la marca da una vuelta al cargar y todo lo demás son transiciones de color de 150 ms. El cuidado se demuestra en alineación, números tabulares, estados vacíos y errores de validación, no en adornos.",
+    "keyCharacteristics": [
+      "Cartón negro + tinta hueso + un dorado de etiqueta reservado a lo activo.",
+      "Listados como lista de temas: Lado A / Lado B, numeración A1/B1, número de catálogo GM-0000.",
+      "Una sola familia (Archivo variable, autoalojada); monoespaciada solo para el número de catálogo.",
+      "Plano: filetes de 1px en lugar de tarjetas y sombras.",
+      "Esquinas casi rectas (3px) en todo lo interactivo."
+    ],
+    "rules": [
+      {
+        "name": "The Etiqueta Rule",
+        "body": "El dorado es la etiqueta del disco: aparece solo en lo activo (sección actual, foco, hover) y en una única acción principal por pantalla. Si dos cosas compiten en dorado en reposo, una sobra.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Inks Rule",
+        "body": "El texto solo tiene dos tintas: hueso para lo que se lee primero y gris para lo que acompaña. No se introducen grises intermedios para texto.",
+        "section": "colors"
+      },
+      {
+        "name": "The States Only Rule",
+        "body": "Rojo y verde existen solo como estado (eliminar, error, confirmación); nunca decoran.",
+        "section": "colors"
+      },
+      {
+        "name": "The Label Is A Side Rule",
+        "body": "El rótulo dorado en versalitas espaciadas nombra una sección real de contenido (un lado, una lista de la ficha). Nunca se usa como antetítulo decorativo encima de un `h1`.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Is Catalog Rule",
+        "body": "La monoespaciada está reservada al número de catálogo; cualquier otro dato, incluidas fechas y años, va en Archivo con cifras tabulares.",
+        "section": "typography"
+      },
+      {
+        "name": "The Printed Sleeve Rule",
+        "body": "Una contraportada es papel impreso: sin sombras, sin tarjetas flotantes, sin desenfoques. Si algo necesita separarse, recibe un filete.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** presentar cualquier listado como lista de temas: Lado A / Lado B, numeración por lado y filas separadas por filete de 1px.",
+      "**Do** mostrar el número de catálogo GM-0000 derivado del id real en monoespaciada de 12px, alineado a la derecha.",
+      "**Do** reservar el dorado (`etiqueta`) a la acción principal, el elemento activo y el foco; su hover es siempre `etiqueta-viva`.",
+      "**Do** usar cifras tabulares para años, fechas y numeraciones.",
+      "**Do** separar con filetes (`filete`, `filete-fuerte`) en lugar de cajas o fondos.",
+      "**Do** mantener el radio de 3px en todo control y el anillo de foco dorado de 2px.",
+      "**Do** distinguir Eliminar con el botón de peligro rojo y confirmar siempre antes de enviar.",
+      "**Do** respetar `prefers-reduced-motion`: el giro del disco es el único movimiento de entrada."
+    ],
+    "donts": [
+      "**Don't** volver al panel de administración gris con tablas y barra lateral.",
+      "**Don't** añadir sombras, tarjetas flotantes ni desenfoques; el sistema es plano.",
+      "**Don't** usar el dorado como decoración ni poner dos elementos dorados en reposo compitiendo en la misma barra.",
+      "**Don't** usar la monoespaciada para nada que no sea el número de catálogo.",
+      "**Don't** poner rótulos en versalitas espaciadas como antetítulo de un `h1`; ese estilo solo nombra secciones de contenido.",
+      "**Don't** inventar portadas, fotos de artistas ni logotipos; el disco de la marca es el único recurso gráfico.",
+      "**Don't** introducir un tema claro: el mundo es cartón negro con `color-scheme: dark`."
+    ]
+  }
+}

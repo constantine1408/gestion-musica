@@ -15,25 +15,32 @@ $tituloPagina = $artista->nombreCompleto();
     </div>
 </div>
 
-<dl>
-    <dt>Nacimiento</dt><dd><?= e($artista->fechaNacimiento) ?: '<span class="tenue">Sin dato</span>' ?></dd>
-    <dt>Nacionalidad</dt><dd><?= e($artista->nacionalidad) ?: '<span class="tenue">Sin dato</span>' ?></dd>
-</dl>
+<div class="ficha">
+    <section aria-label="Datos del artista">
+        <dl class="creditos">
+            <div><dt>Nacimiento</dt><dd><?= e($artista->fechaNacimiento) ?: '<span class="tenue">Sin dato</span>' ?></dd></div>
+            <div><dt>Nacionalidad</dt><dd><?= e($artista->nacionalidad) ?: '<span class="tenue">Sin dato</span>' ?></dd></div>
+        </dl>
+    </section>
 
-<h2>Álbumes</h2>
-<?php if ($albumes === []): ?>
-    <p class="vacio">Todavía no está vinculado a ningún álbum. Se agrega desde la ficha del álbum.</p>
-<?php else: ?>
-    <table>
-        <thead><tr><th>Título</th><th>Género</th><th>Año</th></tr></thead>
-        <tbody>
-        <?php foreach ($albumes as $album): ?>
-            <tr>
-                <td><a href="/albumes/<?= $album->id ?>"><?= e($album->titulo) ?></a></td>
-                <td><?= e($album->genero) ?></td>
-                <td><?= $album->anioLanzamiento ?></td>
-            </tr>
-        <?php endforeach; ?>
-        </tbody>
-    </table>
-<?php endif; ?>
+    <section aria-labelledby="t-albumes">
+        <h2 id="t-albumes">Álbumes</h2>
+        <?php if ($albumes === []): ?>
+            <p class="vacio">Todavía no está vinculado a ningún álbum. Se agrega desde la ficha del álbum.</p>
+        <?php else: ?>
+            <ol class="pistas">
+                <?php foreach ($albumes as $i => $album): ?>
+                    <li class="pista">
+                        <span class="n"><?= $i + 1 ?></span>
+                        <a class="t" href="/albumes/<?= $album->id ?>"><?= e($album->titulo) ?></a>
+                        <span class="meta"><?= e($album->genero) ?></span>
+                        <span class="der">
+                            <b><?= $album->anioLanzamiento ?></b>
+                            <span class="catalogo"><?= numero_catalogo((int) $album->id) ?></span>
+                        </span>
+                    </li>
+                <?php endforeach; ?>
+            </ol>
+        <?php endif; ?>
+    </section>
+</div>
